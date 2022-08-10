@@ -1,0 +1,36 @@
+.lobo-img img {
+  max-width: 370px;
+}
+
+.grid-intro {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  margin-bottom: 25px;
+  margin: 0px 50px;
+}
+
+.intro {
+  font-weight: bold;
+  font-size: 3rem;
+  align-self: center;
+  line-height: 75px;
+  position: relative;
+}
+
+.intro h2::before {
+  content: "";
+  background-image: url(/img/detalhe.svg);
+  width: 128px;
+  height: 128px;
+  position: absolute;
+  bottom: 200px;
+  right: 635px;
+  z-index: -1;
+}
+
+.intro span {
+  font-weight: normal;
+  color: gray;
+  font-size: 1.6rem;
+  margin-top: 20px;
+}
