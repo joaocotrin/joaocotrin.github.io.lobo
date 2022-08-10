@@ -1,0 +1,41 @@
+@import "/css/global.css";
+@import "/css/header.css";
+@import "/css/introducao.css";
+@import "/css/experiencia.css";
+@import "/css/formacao.css";
+@import "/css/footer.css";
+
+@media (max-width: 1070px) {
+  .grid-intro::before {
+    display: none;
+  }
+
+  .intro {
+    grid-column: 1;
+    font-weight: bold;
+    font-size: 1.8rem;
+    align-self: center;
+    line-height: 50px;
+    text-align: center;
+  }
+  .intro p {
+    font-size: 1rem;
+  }
+
+  .grid-intro {
+    grid-template-columns: 1fr;
+    margin: 20px;
+    margin-bottom: 25px;
+  }
+  .lobo-img {
+    display: none;
+  }
+
+  .grid-contato {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    margin: 120px 40px 50px;
+    gap: 30px 80px;
+  }
+}
