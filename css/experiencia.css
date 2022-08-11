@@ -11,14 +11,14 @@
   word-wrap: break-word;
   text-transform: uppercase;
   line-height: 130px;
-  color: gray;
+  color: var(--texto3);
   opacity: 0.3;
   max-width: 320px;
 }
 
 .apresentacao {
   grid-column: 2;
-  color: rgb(79, 76, 76);
+  color: var(--texto3);
   font-size: 1.5rem;
   align-self: center;
   margin-bottom: 20px;
@@ -26,14 +26,14 @@
 }
 
 .apresentacao strong {
-  color: black;
+  color: var(--texto1);
 }
 
 .empresa {
   grid-column: 2;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: rgba(164, 164, 164, 0.16);
+  background-color: var(--fundo-experiencia);
   padding: 20px;
   position: relative;
 }
@@ -43,7 +43,7 @@
 }
 
 .empresa p {
-  color: rgb(79, 76, 76);
+  color: var(--texto3);
 }
 
 .empresa::before {
@@ -62,7 +62,7 @@
   display: inline-block;
   left: -70px;
   top: 23px;
-  color: #747474;
+  color: var(--texto3);
   font-weight: 400;
   width: 60px;
   text-align: right;
@@ -77,7 +77,7 @@
 }
 
 .flex li {
-  background-color: white;
+  background-color: var(--fundo-experiencia-flex);
   font-size: 15px;
   border-radius: 5px;
   padding: 10px;
@@ -95,7 +95,6 @@
     margin: 0px 20px 50px;
   }
   .apresentacao {
-    color: rgb(79, 76, 76);
     font-size: 1.5rem;
     align-self: center;
     margin: 20px 0px 20px 5px;

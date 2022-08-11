@@ -1,5 +1,5 @@
 .grid-formacao-0 {
-  background-color: #141414;
+  background-color: var(--fundo-formacao);
   display: grid;
 }
 
@@ -31,7 +31,7 @@
 
 .formacao-intro {
   font-size: 1.5rem;
-  color: #a3a3a3;
+  color: var(--texto3);
   max-width: 520px;
   margin-bottom: 80px;
 }
@@ -51,7 +51,7 @@
   display: flex;
   flex-direction: column;
   flex: 1;
-  background-color: black;
+  background-color: var(--fundo);
   border-radius: 5px;
   margin: 0px;
   padding: 20px;
@@ -70,7 +70,7 @@
 }
 
 .titulo {
-  color: #a3a3a3;
+  color: var(--texto3);
   text-transform: uppercase;
   margin-bottom: 10px;
   font-size: 0.8rem;
@@ -86,7 +86,7 @@
 }
 
 .faculdade {
-  color: #a3a3a3;
+  color: var(--texto3);
   text-transform: uppercase;
 }
 
@@ -108,7 +108,7 @@
 
 .cursos-intensivos {
   grid-column: 1 / -1;
-  color: #a3a3a3;
+  color: var(--texto3);
   text-transform: uppercase;
   font-weight: bold;
   font-size: 0.9rem;
@@ -123,7 +123,7 @@
 }
 
 .duracao {
-  color: #a3a3a3;
+  color: var(--texto3);
   font-weight: 500;
   align-self: center;
   justify-self: end;
@@ -144,7 +144,7 @@
 }
 
 .idiomas {
-  color: #a3a3a3;
+  color: var(--texto3);
   text-transform: uppercase;
   font-weight: bold;
   font-size: 0.9rem;
@@ -161,7 +161,7 @@
 
 .idioma-nivel {
   margin-bottom: 10px;
-  color: #cccccc;
+  color: var(--texto3);
   font-size: 1.2rem;
   font-weight: 500;
 }

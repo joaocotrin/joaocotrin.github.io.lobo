@@ -30,7 +30,7 @@
 
 .intro span {
   font-weight: normal;
-  color: gray;
+  color: var(--texto2);
   font-size: 1.6rem;
   margin-top: 20px;
 }
